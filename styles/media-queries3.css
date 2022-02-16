@@ -1,0 +1,117 @@
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 1023px) {
+  header {
+    padding: 12px 20px;
+    position: sticky;
+  }
+  .navigation a {
+    padding-left: 10px;
+  }
+  .title {
+    font-size: 1.8em;
+  }
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1em;
+  }
+
+  .main-content h3 {
+    font-size: 1.6em;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 641px) {
+  body {
+    font-size: 12px;
+  }
+
+  .main {
+    width: 100%;
+    display: block;
+  }
+
+  .main-content h2 {
+    font-size: 0.8;
+  }
+
+  .main-content h3 {
+    font-size: 1.4em;
+  }
+
+  .footer-title {
+    font-size: 1em;
+  }
+
+  .main h2 {
+    color: black;
+    font-size: 2em;
+    font-weight: 600;
+  }
+
+  .main h2 span {
+    display: inline-block;
+    margin-top: 7px;
+    color: #4e9eff;
+    font-size: 1.8em;
+    font-weight: 550;
+  }
+
+  .main h3 {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 7px;
+    margin-bottom: 25px;
+  }
+
+  footer {
+    display: block;
+  }
+
+  table {
+    margin-right: 6.5em;
+  }
+
+  .about-us {
+    padding-bottom: 1.65em;
+  }
+}
+
+@media (max-width: 300px) {
+  body {
+    font-size: 10px;
+  }
+}

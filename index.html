@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ar_EG">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>مركز رضوى للبصريات</title>
+        <meta name="description" content="مركز لبيع النظارات الطبية والشمسية و العدسات اللاصقة الشفافة و الملونة 
+        جميع الاكسسوارات المتعلقة بالنظارات 
+        جميع انواع العدسات الطبية و الوقائية و الشمسية و عدسات الحماية من الأشعة المختلفة.
+        سلاسل - اسبراي تنظيف - مناديل حماية - جرابات مختلفة - ...إلخ ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="icon" href="images/cover.jpg">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/media-queries.css">
+    </head>
+    <body>
+
+        <header>
+            <a href="#" class="logo">Radwa Optics</a>
+            <nav class="navigation">
+                <a href="#header">الصفحه الرئيسية</a>
+                <a href="#services">الخدمات</a>
+                <a href="#Insurance-companies">شركات التأمين</a>
+                <a href="#contact">تواصل معنا</a>
+                <a href="index2.html" target="_blank">فروعنا</a>
+            </nav>
+        </header>
+
+
+        <section class="main" id="header">
+            <div>
+                <h2>مرحبا بكم!<br> <span>مركز رضوى للبصريات</span></h2>
+                <!-- <h3>ننتظر زيارتكم لنا.</h3> -->
+                <a href="index3.html" target="_blank" class="main-btn">شركات التأمين</a>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/radwaoptical" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/radwa_optics/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/message/75XZWVE2DQ3GN1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <!--Test-->
+    
+            <div class="slideshow-container">
+            
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">1 / 6</div> -->
+                    <img src="images/cover.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+            
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">2 / 6</div> -->
+                    <img src="images/test1.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Two</div> -->
+                </div>
+            
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 6</div> -->
+                    <img src="images/test2.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+            
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">4 / 6</div> -->
+                    <img src="images/test1.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+            
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">5 / 6</div> -->
+                    <img src="images/test2.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Two</div> -->
+                </div>
+            
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">6 / 6</div> -->
+                    <img src="images/logo.png" style="width:100%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+            <!--JAVA SCTIPT-->
+
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+            </script>
+
+        </section>
+
+        <section class="cards" id="services">
+            <h2 class="title">الخدمات</h2>
+            <div class="content">
+
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="info">
+                        <h3>الإستلام الفوري</h3>
+                        <p class="write">يمكنك الآن إستلام النظاراة بعد شرائها فوراً , وهذا ما نتميز به
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="info">
+                        <h3>الإستلام الفوري</h3>
+                        <p class="write">يمكنك الآن إستلام النظاراة بعد شرائها فوراً , وهذا ما نتميز به
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="info">
+                        <h3>الإستلام الفوري</h3>
+                        <p class="write">يمكنك الآن إستلام النظاراة بعد شرائها فوراً , وهذا ما نتميز به
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="projects" id="Insurance-companies">
+            <h2 class="title">شركات التأمين</h2>
+            <div class="content">
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="logos/nextcare.PNG" alt="test">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">NextCare</p>
+                        <str ong class="project-title">
+                            <span>نقبل الموافقات الخاصة بهم</span>
+                            <a href="https://www.nextcarehealth.com/ar/" target="_blank" class="more-details">More Details</a>
+                        </str ong>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="logos/inaiamasr.png" alt="INAYA Egypt">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">INAYA Egypt</p>
+                        <str ong class="project-title">
+                            <span>نقبل الموافقات الخاصة بهم</span>
+                            <a href="http://www.inayaegypt.com/" target="_blank" class="more-details">More Details</a>
+                        </str ong>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="logos/alahli.PNG" alt="Al AHLI MEDICAL INCURANCE">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Al AHLI MEDICAL INCURANCE</p>
+                        <str ong class="project-title">
+                            <span>نقبل الموافقات الخاصة بهم</span>
+                            <a href="https://www.ahlymedical.com/" target="_blank" class="more-details">More Details</a>
+                        </str ong>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="logos/life.png" alt="life healthcare">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">life healthcare</p>
+                        <str ong class="project-title">
+                            <span>نقبل الموافقات الخاصة بهم</span>
+                            <a href="https://www.lifehealthcare.co.za/" target="_blank" class="more-details">More Details</a>
+                        </str ong>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="logos/allianz.PNG" alt="allianz">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">allianz</p>
+                        <str ong class="project-title">
+                            <span>نقبل الموافقات الخاصة بهم</span>
+                            <a href="https://www.allianz.com.eg/ar_EG.html" target="_blank" class="more-details">More Details</a>
+                        </str ong>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="logos/metlife.PNG" alt="metlife">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">metlife</p>
+                        <str ong class="project-title">
+                            <span>نقبل الموافقات الخاصة بهم</span>
+                            <a href="https://www.metlife.eg/" target="_blank" class="more-details">More Details</a>
+                        </str ong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="title">تواصل معنا</h2>
+            <div class="content">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-phone-square-alt"></i>
+                    </div>
+                    <div class="info">
+                        <h3>اتصل بنا</h3>
+                        <p class="write">علي هذا الرقم</p>
+                        <a href="tel:+201008310995">
+                        01008310995
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info">
+                        <h3>تواصل معنا</h3>
+                        <p class="write">علي هذا البريد</p>
+                        <a href="mailto:radwaoptics@gmail.com">
+                        أنقر هنا
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div class="card">
+                    <div class="icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="info">
+                        <h3>واتس اب</h3>
+                        <p class="write">للتواصل معنا</p>
+                        <a href="https://wa.me/message/75XZWVE2DQ3GN1" target="_blank">
+                            أنقر هنا
+                        </a>
+                    </div>
+                </div>
+
+            <!-- <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="info">
+                        <h3>our places</h3>
+                        <p class="write">الإتجاهات</p>
+                        <a href="https://goo.gl/maps/7btNRkb8JqUT5Z1A6" target="_blank">
+                        أنقر هنا
+                        </a>
+                    </div>
+                </div>-->
+                
+                <!-- <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="info">
+                        <h3>الفروع الخاصه بنا</h3>
+                        <p class="write">لمعرفة العناوين وأرقام الهواتف</p>
+                        <a href="index2.html" target="_blank">
+                        أنقر هنا
+                        </a>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+
+                <footer>
+                
+                    <div class="about-us">
+                        <p class="info-footer">
+                            <span class="title-footer">
+                                من نحن..؟
+                            </span>
+                            <br>
+                            نحن مركز متخصص في مجال النظارات الطبية و يوجد<br>لدينا أحدث الأجهزة لتسليم النظارة للعميل <br>في الحال.
+                        </p>
+                        <div class="social-icons-footer">
+                            <a href="https://www.facebook.com/radwaoptical" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/radwa_optics/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/message/75XZWVE2DQ3GN1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                
+                    <table>
+                        <!-- <caption>Time Table</caption> -->
+                        <theead>
+                            <tr>
+                                <th>الأيام</th>
+                                <th>المواعيد</th>
+                            </tr>
+                        </theead>
+                        <tbody>
+                            <tr>
+                                <td>السبت</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الأحد</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الإثنين</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الثلاثاء</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الأربعاء</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الخميس</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الجمعة</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                        </tbody>
+                        <!-- <tfoot>
+                                    <tr>
+                                        <td colspan="2">Radwa Optics</td>
+                                    </tr>
+                                </tfoot> -->
+                
+                    </table>
+                    <!-- <p class="copy-right">All Right Recived@2022</p> -->
+                </footer>
+                
+                <p class="copy-right">All Right Recived<span>&copy;</span>2022</p>
+
+    </body>
+</html>

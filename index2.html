@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ar_EG">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="مركز لبيع النظارات الطبية والشمسية و العدسات اللاصقة الشفافة و الملونة 
+            جميع الاكسسوارات المتعلقة بالنظارات 
+            جميع انواع العدسات الطبية و الوقائية و الشمسية و عدسات الحماية من الأشعة المختلفة.
+            سلاسل - اسبراي تنظيف - مناديل حماية - جرابات مختلفة - ...إلخ ">
+        <title>الفروع-مركز رضوى للبصريات</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="icon" href="images/cover.jpg">
+        <link rel="stylesheet" href="styles/styles2.css">
+        <link rel="stylesheet" href="styles/media-queries2.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="#" class="logo">Radwa Optics</a>
+            <nav class="navigation">
+                <a href="index.html" target="_blank">الصفحه الرئيسية</a>
+                <a href="#">الخدمات</a>
+                <a href="index3.html" target="_blank">شركات التأمين</a>
+                <a href="#">الدعم</a>
+            </nav>
+        </header>
+
+        <section class="main" id="header">
+            <div>
+                <h2>مرحبا بكم!<br> <span>مركز رضوى للبصريات</span></h2>
+                <!-- <h3>ننتظر زيارتكم لنا.</h3> -->
+                <a href="index3.html" class="main-btn">شركات التأمين</a>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/radwaoptical" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/radwa_optics/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/message/75XZWVE2DQ3GN1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">1 / 6</div> -->
+                    <img src="work1.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">2 / 6</div> -->
+                    <img src="work1.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Two</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">3 / 6</div> -->
+                    <img src="work1.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">4 / 6</div> -->
+                    <img src="work1.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">5 / 6</div> -->
+                    <img src="work1.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Two</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext">6 / 6</div> -->
+                    <img src="work1.jpg" style="width:100%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+
+            <!--JAVA SCRIPT-->
+
+
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) { slideIndex = 1 }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+            </script>
+        </section>
+
+
+        <section class="projects" id="projects">
+            <h2 class="title">فروعنا</h2>
+            <div class="content">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/cover.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Radwa Optics
+                        </p>
+                        <p class="project-title">
+                            <span>Info <br>
+                                العنوان: 35 طريق المنصوريه، نزلة السمان، الهرم، الجيزة
+                                <br><a class="ee" href="Tel:+0201008310995">رقم الهاتف: 01008310995</a></span>
+                            <a class="more-details" href="https://goo.gl/maps/7btNRkb8JqUT5Z1A6" target="_blank">أنقر
+                                هنا</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/cover.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Radwa Optics
+                        </p>
+                        <p class="project-title">
+                            <span>Info <br>
+                                العنوان: الحصري، قسم أول 6 أكتوبر، الجيزة- زمزم مول الدورالأرضي
+                                <br><a class="ee" href="Tel:+0201123040633">رقم الهاتف: 01123040633</a></span>
+                            <a class="more-details" href="https://goo.gl/maps/EXLUASjKWiQFUngy8" target="_blank">أنقر
+                                هنا</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/cover.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Radwa Optics
+                        </p>
+                        <p class="project-title">
+                            <span>Info <br>
+                                العنوان: شارع الكابلات بجوار صيدلية الريس - القاهرة
+                                <br><a class="ee" href="Tel:+0201011909611">رقم الهاتف: 01011909611</a></span>
+                            <a class="more-details" href="https://goo.gl/maps/Tni1gPreSWzuSS3Q7" target="_blank">أنقر
+                                هنا</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/cover.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Radwa Optics
+                        </p>
+                        <p class="project-title">
+                            <span>Info <br>
+                                العنوان: 35 طريق المنصوريه، نزلة السمان، الهرم، الجيزة
+                                <br><a class="ee" href="Tel:+0201008310995">رقم الهاتف: 01008310995</a></span>
+                            <a class="more-details" href="https://goo.gl/maps/7btNRkb8JqUT5Z1A6" target="_blank">أنقر
+                                هنا</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/cover.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Radwa Optics
+                        </p>
+                        <p class="project-title">
+                            <span>Info <br>
+                                العنوان: 35 طريق المنصوريه، نزلة السمان، الهرم، الجيزة
+                                <br><a class="ee" href="Tel:+0201008310995">رقم الهاتف: 01008310995</a></span>
+                            <a class="more-details" href="https://goo.gl/maps/7btNRkb8JqUT5Z1A6" target="_blank">أنقر
+                                هنا</a>
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/cover.jpg" />
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Radwa Optics
+                        </p>
+                        <p class="project-title">
+                            <span>Info <br>
+                                العنوان: 35 طريق المنصوريه، نزلة السمان، الهرم، الجيزة
+                                <br><a class="ee" href="Tel:+0201008310995">رقم الهاتف: 01008310995</a></span>
+                            <a class="more-details" href="https://goo.gl/maps/7btNRkb8JqUT5Z1A6" target="_blank">أنقر
+                                هنا</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="massage">
+            <h2 class="title">Send Massage</h2>
+            <div class="con-content">
+                <form class="comunicates">
+                    <div class="com-info">
+                        <label class="names">
+                            Name
+                        </label> <br>
+                        <input class="inputs" type="text"  placeholder="     Ahmed Mohamed">
+                    </div>
+
+                    <div class="com-info">
+                        <label class="names">
+                            E-Mail
+                        </label> <br>
+                        <input class="inputs" type="text"  placeholder="     ddd@gmail.com">
+                    </div>
+
+                    <div class="com-info">
+                        <label class="names">
+                            Massage
+                        </label> <br>
+                        <input class="mas-input" type="text" placeholder="   type your opinion here">
+                    </div>
+
+                    <div class="com-info">
+                        <input class="submit" type="submit">
+                    </div>
+                </form>
+            </div>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="600" height="500"  id="gmap_canvas" 
+                        src="https://maps.google.com/maps?q=Radwa%20optics&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                        <a href="https://fmovies-online.net">
+                            fmovies
+                        </a><br>
+                        <a href="https://www.embedgooglemap.net">
+                            embed google map in webpage
+                        </a>
+                </div>
+            </div>
+        </section> -->
+                <footer>
+                
+                    <div class="about-us">
+                        <p class="info-footer">
+                            <span class="title-footer">
+                                من نحن..؟
+                            </span>
+                            <br>
+                            نحن مركز متخصص في مجال النظارات الطبية و يوجد<br>لدينا أحدث الأجهزة لتسليم النظارة للعميل <br>في الحال.
+                        </p>
+                        <div class="social-icons-footer">
+                            <a href="https://www.facebook.com/radwaoptical" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/radwa_optics/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/message/75XZWVE2DQ3GN1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                
+                    <table>
+                        <!-- <caption>Time Table</caption> -->
+                        <theead>
+                            <tr>
+                                <th>الأيام</th>
+                                <th>المواعيد</th>
+                            </tr>
+                        </theead>
+                        <tbody>
+                            <tr>
+                                <td>السبت</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الأحد</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الإثنين</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الثلاثاء</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الأربعاء</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الخميس</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                            <tr>
+                                <td>الجمعة</td>
+                                <td>12م : 10م</td>
+                            </tr>
+                        </tbody>
+                        <!-- <tfoot>
+                                    <tr>
+                                        <td colspan="2">Radwa Optics</td>
+                                    </tr>
+                                </tfoot> -->
+                
+                    </table>
+                    <!-- <p class="copy-right">All Right Recived@2022</p> -->
+                </footer>
+                
+                <p class="copy-right">All Right Recived<span>&copy;</span>2022</p>
+    </body>
+
+</html>
